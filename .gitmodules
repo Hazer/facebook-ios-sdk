@@ -19,3 +19,6 @@
 [submodule "vendor/xctool"]
 	path = vendor/xctool
 	url = git://github.com/facebook/xctool.git
+[submodule "Carthage.checkout/Bolts-iOS"]
+	path = Carthage.checkout/Bolts-iOS
+	url = https://github.com/justinmakaila/Bolts-iOS.git
