@@ -249,7 +249,6 @@
 		7C2BF3881A3A40EC00974BEC /* FBUIHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BEB3E518E3BC31006C97A6 /* FBUIHelpers.h */; };
 		7C2BF3891A3A40EC00974BEC /* FBViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F9929C1871E5F000E3369F /* FBViewController+Internal.h */; };
 		7C2BF38A1A3A40EC00974BEC /* FBViewImpressionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 892A11A21937F3A300513431 /* FBViewImpressionTracker.h */; };
-		7C2BF3AE1A3A54E300974BEC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2BF3AD1A3A54E300974BEC /* Bolts.framework */; };
 		7C2BF3BE1A3A616200974BEC /* FBDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F992091871CAA600E3369F /* FBDialog.h */; };
 		7C2BF3BF1A3A616F00974BEC /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F991E51871C7D900E3369F /* FBDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7C2BF3F61A3A624200974BEC /* FBDialogClose.png in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BF3CD1A3A622300974BEC /* FBDialogClose.png */; };
@@ -267,6 +266,7 @@
 		7C2BF4091A3A628300974BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8446FDB3151D2674000BE007 /* UIKit.framework */; };
 		7C2BF40A1A3A628C00974BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		7C2BF40D1A3A643B00974BEC /* FBLikeButtonPop.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE0218D3C1F70033CDCB /* FBLikeButtonPop.wav */; };
+		7C6504781A3A7BF0003EDFE7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6504761A3A7BEB003EDFE7 /* Bolts.framework */; };
 		7EBC39BD171CF1E400574F4E /* FBSettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC39BC171CF1E400574F4E /* FBSettingsTests.m */; };
 		7EE2A6E116DE7D15009C2BA4 /* FBShareDialogParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE2A6DF16DE7D15009C2BA4 /* FBShareDialogParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8409694C1541F41100479AD9 /* FBOpenGraphAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8409694B1541F41100479AD9 /* FBOpenGraphAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -849,7 +849,6 @@
 		6D87793D18359AA800C03D5C /* FBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBColor.h; sourceTree = "<group>"; };
 		7C2BF25A1A3A39B800974BEC /* FacebookSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FacebookSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2BF2D21A3A3C0E00974BEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Framework/Resources/Info.plist; sourceTree = "<group>"; };
-		7C2BF3AD1A3A54E300974BEC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Carthage.build/iOS/Bolts.framework; sourceTree = "<group>"; };
 		7C2BF3CD1A3A622300974BEC /* FBDialogClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBDialogClose.png; sourceTree = "<group>"; };
 		7C2BF3CE1A3A622300974BEC /* FBDialogClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBDialogClose@2x.png"; sourceTree = "<group>"; };
 		7C2BF3D01A3A622300974BEC /* FBFriendPickerViewDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBFriendPickerViewDefault.png; sourceTree = "<group>"; };
@@ -868,6 +867,7 @@
 		7C2BF3E01A3A622300974BEC /* FBPlacePickerViewGenericPlace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBPlacePickerViewGenericPlace.png; sourceTree = "<group>"; };
 		7C2BF3E21A3A622300974BEC /* FBProfilePictureViewBlankProfilePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBProfilePictureViewBlankProfilePortrait.png; sourceTree = "<group>"; };
 		7C2BF3E31A3A622300974BEC /* FBProfilePictureViewBlankProfileSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBProfilePictureViewBlankProfileSquare.png; sourceTree = "<group>"; };
+		7C6504761A3A7BEB003EDFE7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Carthage.build/iOS/Bolts.framework; sourceTree = "<group>"; };
 		7EBC39BC171CF1E400574F4E /* FBSettingsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSettingsTests.m; path = tests/FBSettingsTests.m; sourceTree = "<group>"; };
 		7EE2A6DF16DE7D15009C2BA4 /* FBShareDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShareDialogParams.h; sourceTree = "<group>"; };
 		8409694B1541F41100479AD9 /* FBOpenGraphAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphAction.h; sourceTree = "<group>"; };
@@ -1201,7 +1201,7 @@
 				7C2BF40A1A3A628C00974BEC /* Foundation.framework in Frameworks */,
 				7C2BF4091A3A628300974BEC /* UIKit.framework in Frameworks */,
 				7C2BF4081A3A627A00974BEC /* CoreLocation.framework in Frameworks */,
-				7C2BF3AE1A3A54E300974BEC /* Bolts.framework in Frameworks */,
+				7C6504781A3A7BF0003EDFE7 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1312,7 +1312,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C2BF3AD1A3A54E300974BEC /* Bolts.framework */,
+				7C6504761A3A7BEB003EDFE7 /* Bolts.framework */,
 				85C9D1BD16A79B4900D0ED57 /* OCHamcrestIOS.framework */,
 				89B220A01926C22A00FD98CF /* XCTest.framework */,
 				89263BF91926C83B00A44711 /* QuartzCore.framework */,
@@ -3065,6 +3065,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/justinmakaila/Workspace/Swift/facebook-ios-sdk/Carthage.build/iOS",
+				);
 			};
 			name = Debug;
 		};
@@ -3072,6 +3076,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/justinmakaila/Workspace/Swift/facebook-ios-sdk/Carthage.build/iOS",
+				);
 			};
 			name = Release;
 		};
