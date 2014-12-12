@@ -17,7 +17,10 @@
 #import "FBGraphObject.h"
 
 #import <objc/runtime.h>
+
+#if TARGET_IPHONE_SIMULATOR
 #import <objc/Protocol.h>
+#endif
 
 #import "FBOpenGraphActionShareDialogParams.h"
 #import "FBOpenGraphObject.h"
