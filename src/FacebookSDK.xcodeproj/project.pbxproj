@@ -2477,7 +2477,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "facebook-ios-sdk" */;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "FacebookSDK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -3094,6 +3094,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3155,6 +3156,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3273,7 +3275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "facebook-ios-sdk" */ = {
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "FacebookSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,

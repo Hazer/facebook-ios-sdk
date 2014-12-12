@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D2AAC07D0554694100DB518D"
                BuildableName = "libfacebook_ios_sdk.a"
                BlueprintName = "facebook-ios-sdk"
-               ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
+               ReferencedContainer = "container:FacebookSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "89263C1A1926CBA500A44711"
                BuildableName = "FacebookSDKApplicationTests.xctest"
                BlueprintName = "FacebookSDKApplicationTests"
-               ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
+               ReferencedContainer = "container:FacebookSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "B9CBC518152537270036AA71"
                BuildableName = "FacebookSDKTests.xctest"
                BlueprintName = "FacebookSDKTests"
-               ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
+               ReferencedContainer = "container:FacebookSDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -59,7 +59,7 @@
                BlueprintIdentifier = "89263C1A1926CBA500A44711"
                BuildableName = "FacebookSDKApplicationTests.xctest"
                BlueprintName = "FacebookSDKApplicationTests"
-               ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
+               ReferencedContainer = "container:FacebookSDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,7 +69,7 @@
             BlueprintIdentifier = "B9CBC518152537270036AA71"
             BuildableName = "FacebookSDKTests.xctest"
             BlueprintName = "FacebookSDKTests"
-            ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
+            ReferencedContainer = "container:FacebookSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <EnvironmentVariables>
@@ -110,7 +110,7 @@
             BlueprintIdentifier = "D2AAC07D0554694100DB518D"
             BuildableName = "libfacebook_ios_sdk.a"
             BlueprintName = "facebook-ios-sdk"
-            ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
+            ReferencedContainer = "container:FacebookSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -128,7 +128,7 @@
             BlueprintIdentifier = "D2AAC07D0554694100DB518D"
             BuildableName = "libfacebook_ios_sdk.a"
             BlueprintName = "facebook-ios-sdk"
-            ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
+            ReferencedContainer = "container:FacebookSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
