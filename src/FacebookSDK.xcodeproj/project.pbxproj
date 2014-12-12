@@ -1199,9 +1199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C2BF40A1A3A628C00974BEC /* Foundation.framework in Frameworks */,
+				7C6504781A3A7BF0003EDFE7 /* Bolts.framework in Frameworks */,
 				7C2BF4091A3A628300974BEC /* UIKit.framework in Frameworks */,
 				7C2BF4081A3A627A00974BEC /* CoreLocation.framework in Frameworks */,
-				7C6504781A3A7BF0003EDFE7 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3087,6 +3087,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA11926A84100E61379 /* FacebookSDK-Project-Debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -3095,6 +3096,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA21926A84100E61379 /* FacebookSDK-Project-Release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Release;
 		};

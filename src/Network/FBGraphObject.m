@@ -17,6 +17,7 @@
 #import "FBGraphObject.h"
 
 #import <objc/runtime.h>
+#import <objc/Protocol.h>
 
 #import "FBOpenGraphActionShareDialogParams.h"
 #import "FBOpenGraphObject.h"
@@ -237,6 +238,9 @@ typedef NS_ENUM(NSUInteger, SelectorInferredImplType) {
 
 // forwards otherwise missing selectors that match the FBGraphObject convention
 - (void)forwardInvocation:(NSInvocation *)invocation {
+    Protocol *protocol;
+    NSLog(@"%@", protocol);
+    
     // if we should forward, to where?
     switch ([FBGraphObject inferredImplTypeForSelector:[invocation selector]]) {
         case SelectorInferredImplTypeGet: {
