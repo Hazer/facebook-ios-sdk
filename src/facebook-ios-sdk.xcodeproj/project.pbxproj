@@ -2339,9 +2339,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7C2BF2591A3A39B700974BEC /* facebook-ios */ = {
+		7C2BF2591A3A39B700974BEC /* FacebookSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C2BF2711A3A39B800974BEC /* Build configuration list for PBXNativeTarget "facebook-ios" */;
+			buildConfigurationList = 7C2BF2711A3A39B800974BEC /* Build configuration list for PBXNativeTarget "FacebookSDK" */;
 			buildPhases = (
 				7C2BF2551A3A39B700974BEC /* Sources */,
 				7C2BF2561A3A39B700974BEC /* Frameworks */,
@@ -2353,7 +2353,7 @@
 			);
 			dependencies = (
 			);
-			name = "facebook-ios";
+			name = FacebookSDK;
 			productName = "facebook-ios";
 			productReference = 7C2BF25A1A3A39B800974BEC /* FacebookSDK.framework */;
 			productType = "com.apple.product-type.framework";
@@ -2509,7 +2509,7 @@
 				85A44B9E16A8CE05007BE80E /* FacebookSDKIntegrationTests */,
 				89263C1A1926CBA500A44711 /* FacebookSDKApplicationTests */,
 				89263C041926CBA500A44711 /* FacebookSDKTestHost */,
-				7C2BF2591A3A39B700974BEC /* facebook-ios */,
+				7C2BF2591A3A39B700974BEC /* FacebookSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -3282,7 +3282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C2BF2711A3A39B800974BEC /* Build configuration list for PBXNativeTarget "facebook-ios" */ = {
+		7C2BF2711A3A39B800974BEC /* Build configuration list for PBXNativeTarget "FacebookSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C2BF26D1A3A39B800974BEC /* Debug */,
