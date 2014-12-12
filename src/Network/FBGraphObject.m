@@ -17,6 +17,7 @@
 #import "FBGraphObject.h"
 
 #import <objc/runtime.h>
+#import <objc/objc.h>
 
 #if TARGET_IPHONE_SIMULATOR
 #import <objc/Protocol.h>
