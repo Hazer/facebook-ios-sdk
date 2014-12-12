@@ -3291,6 +3291,7 @@
 				7C2BF26E1A3A39B800974BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85A44BAD16A8CE05007BE80E /* Build configuration list for PBXNativeTarget "FacebookSDKIntegrationTests" */ = {
 			isa = XCConfigurationList;
