@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7C2BF2591A3A39B700974BEC"
-               BuildableName = "facebook-ios.framework"
-               BlueprintName = "facebook-ios"
+               BuildableName = "FacebookSDK.framework"
+               BlueprintName = "FacebookSDK"
                ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -57,8 +57,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C2BF2591A3A39B700974BEC"
-            BuildableName = "facebook-ios.framework"
-            BlueprintName = "facebook-ios"
+            BuildableName = "FacebookSDK.framework"
+            BlueprintName = "FacebookSDK"
             ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C2BF2591A3A39B700974BEC"
-            BuildableName = "facebook-ios.framework"
-            BlueprintName = "facebook-ios"
+            BuildableName = "FacebookSDK.framework"
+            BlueprintName = "FacebookSDK"
             ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -94,8 +94,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C2BF2591A3A39B700974BEC"
-            BuildableName = "facebook-ios.framework"
-            BlueprintName = "facebook-ios"
+            BuildableName = "FacebookSDK.framework"
+            BlueprintName = "FacebookSDK"
             ReferencedContainer = "container:facebook-ios-sdk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
