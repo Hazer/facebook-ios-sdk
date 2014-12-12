@@ -142,7 +142,9 @@
     self.backgroundImageView.userInteractionEnabled = NO;
     self.backgroundImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self.canvasView addSubview:self.backgroundImageView];
-    [self updateBackgroundImage];
+    
+    UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
+    [self updateBackgroundImage:orientation];
 
     UIImageView *logo = [[[UIImageView alloc]
                           initWithImage:[UIImage imageNamed:@"FBUserSettingsViewResources.bundle/images/facebook-logo.png"]] autorelease];
@@ -232,10 +234,10 @@
     [self updateControls];
 }
 
-- (void)updateBackgroundImage {
-    NSString *orientation = UIInterfaceOrientationIsPortrait(self.interfaceOrientation) ? @"Portrait" : @"Landscape";
+- (void)updateBackgroundImage:(UIInterfaceOrientation)orientation {
+    NSString *orientationString = UIInterfaceOrientationIsPortrait(orientation) ? @"Portrait" : @"Landscape";
     NSString *idiom = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ? @"IPhone" : @"IPad";
-    NSString *imagePath = [NSString stringWithFormat:@"FBUserSettingsViewResources.bundle/images/loginBackground%@%@.jpg", idiom, orientation];
+    NSString *imagePath = [NSString stringWithFormat:@"FBUserSettingsViewResources.bundle/images/loginBackground%@%@.jpg", idiom, orientationString];
     self.backgroundImageView.image = [UIImage imageNamed:imagePath];
 }
 
@@ -246,7 +248,7 @@
 }
 
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-    [self updateBackgroundImage];
+    [self updateBackgroundImage:toInterfaceOrientation];
 }
 
 - (NSUInteger)supportedInterfaceOrientations {
