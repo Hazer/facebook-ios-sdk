@@ -266,8 +266,8 @@
 		7C2BF4091A3A628300974BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8446FDB3151D2674000BE007 /* UIKit.framework */; };
 		7C2BF40A1A3A628C00974BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		7C2BF40D1A3A643B00974BEC /* FBLikeButtonPop.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE0218D3C1F70033CDCB /* FBLikeButtonPop.wav */; };
-		7C6504781A3A7BF0003EDFE7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6504761A3A7BEB003EDFE7 /* Bolts.framework */; };
 		7C6504801A3A903A003EDFE7 /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C65047F1A3A903A003EDFE7 /* libobjc.dylib */; };
+		7C8B5BCB1A4350A1000A96C3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6504761A3A7BEB003EDFE7 /* Bolts.framework */; };
 		7CF7D4961A3F9842003CBAB0 /* FBDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C1E1FF1717DD000037E406 /* FBDialogs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EBC39BD171CF1E400574F4E /* FBSettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC39BC171CF1E400574F4E /* FBSettingsTests.m */; };
 		7EE2A6E116DE7D15009C2BA4 /* FBShareDialogParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE2A6DF16DE7D15009C2BA4 /* FBShareDialogParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1201,9 +1201,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8B5BCB1A4350A1000A96C3 /* Bolts.framework in Frameworks */,
 				7C6504801A3A903A003EDFE7 /* libobjc.dylib in Frameworks */,
 				7C2BF40A1A3A628C00974BEC /* Foundation.framework in Frameworks */,
-				7C6504781A3A7BF0003EDFE7 /* Bolts.framework in Frameworks */,
 				7C2BF4091A3A628300974BEC /* UIKit.framework in Frameworks */,
 				7C2BF4081A3A627A00974BEC /* CoreLocation.framework in Frameworks */,
 			);
