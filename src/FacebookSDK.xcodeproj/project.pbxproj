@@ -3136,7 +3136,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/justinmakaila/Workspace/Swift/facebook-ios-sdk/Carthage.build/iOS",
+					"$(SRCROOT)/../Carthage.build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3199,7 +3199,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/justinmakaila/Workspace/Swift/facebook-ios-sdk/Carthage.build/iOS",
+					"$(SRCROOT)/../Carthage.build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
