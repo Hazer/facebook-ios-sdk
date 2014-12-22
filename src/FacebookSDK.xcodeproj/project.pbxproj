@@ -267,7 +267,8 @@
 		7C2BF40A1A3A628C00974BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		7C2BF40D1A3A643B00974BEC /* FBLikeButtonPop.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE0218D3C1F70033CDCB /* FBLikeButtonPop.wav */; };
 		7C6504801A3A903A003EDFE7 /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C65047F1A3A903A003EDFE7 /* libobjc.dylib */; };
-		7C8B5BCB1A4350A1000A96C3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6504761A3A7BEB003EDFE7 /* Bolts.framework */; };
+		7CECB7A31A48DA4800D38A4B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CECB7A21A48DA4800D38A4B /* Bolts.framework */; };
+		7CECB7A41A48DA4800D38A4B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CECB7A21A48DA4800D38A4B /* Bolts.framework */; };
 		7CF7D4961A3F9842003CBAB0 /* FBDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C1E1FF1717DD000037E406 /* FBDialogs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EBC39BD171CF1E400574F4E /* FBSettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC39BC171CF1E400574F4E /* FBSettingsTests.m */; };
 		7EE2A6E116DE7D15009C2BA4 /* FBShareDialogParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE2A6DF16DE7D15009C2BA4 /* FBShareDialogParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -869,8 +870,8 @@
 		7C2BF3E01A3A622300974BEC /* FBPlacePickerViewGenericPlace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBPlacePickerViewGenericPlace.png; sourceTree = "<group>"; };
 		7C2BF3E21A3A622300974BEC /* FBProfilePictureViewBlankProfilePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBProfilePictureViewBlankProfilePortrait.png; sourceTree = "<group>"; };
 		7C2BF3E31A3A622300974BEC /* FBProfilePictureViewBlankProfileSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBProfilePictureViewBlankProfileSquare.png; sourceTree = "<group>"; };
-		7C6504761A3A7BEB003EDFE7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Carthage.build/iOS/Bolts.framework; sourceTree = "<group>"; };
 		7C65047F1A3A903A003EDFE7 /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
+		7CECB7A21A48DA4800D38A4B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
 		7EBC39BC171CF1E400574F4E /* FBSettingsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSettingsTests.m; path = tests/FBSettingsTests.m; sourceTree = "<group>"; };
 		7EE2A6DF16DE7D15009C2BA4 /* FBShareDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShareDialogParams.h; sourceTree = "<group>"; };
 		8409694B1541F41100479AD9 /* FBOpenGraphAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphAction.h; sourceTree = "<group>"; };
@@ -1201,7 +1202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8B5BCB1A4350A1000A96C3 /* Bolts.framework in Frameworks */,
+				7CECB7A41A48DA4800D38A4B /* Bolts.framework in Frameworks */,
 				7C6504801A3A903A003EDFE7 /* libobjc.dylib in Frameworks */,
 				7C2BF40A1A3A628C00974BEC /* Foundation.framework in Frameworks */,
 				7C2BF4091A3A628300974BEC /* UIKit.framework in Frameworks */,
@@ -1271,6 +1272,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CECB7A31A48DA4800D38A4B /* Bolts.framework in Frameworks */,
 				89D8D78819901A080041CF82 /* libBolts.a in Frameworks */,
 				B96F15E3152B927E00A52896 /* CoreLocation.framework in Frameworks */,
 				8446FDB4151D2674000BE007 /* UIKit.framework in Frameworks */,
@@ -1316,8 +1318,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CECB7A21A48DA4800D38A4B /* Bolts.framework */,
 				7C65047F1A3A903A003EDFE7 /* libobjc.dylib */,
-				7C6504761A3A7BEB003EDFE7 /* Bolts.framework */,
 				85C9D1BD16A79B4900D0ED57 /* OCHamcrestIOS.framework */,
 				89B220A01926C22A00FD98CF /* XCTest.framework */,
 				89263BF91926C83B00A44711 /* QuartzCore.framework */,
@@ -2352,6 +2354,7 @@
 				7C2BF2551A3A39B700974BEC /* Sources */,
 				7C2BF2561A3A39B700974BEC /* Frameworks */,
 				7C2BF2571A3A39B700974BEC /* Headers */,
+				7CECB7A51A48DA5400D38A4B /* ShellScript */,
 			);
 			buildRules = (
 				7C2BF40C1A3A63A000974BEC /* PBXBuildRule */,
@@ -2652,6 +2655,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7CECB7A51A48DA5400D38A4B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/iOS/Bolts.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		85C9D0E516A7957A00D0ED57 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3074,6 +3091,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/justinmakaila/Workspace/Swift/facebook-ios-sdk/Carthage.build/iOS",
+					"/Users/justinmakaila/Workspace/Swift/facebook-ios-sdk/Carthage/Build/iOS",
 				);
 			};
 			name = Debug;
@@ -3085,6 +3103,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/justinmakaila/Workspace/Swift/facebook-ios-sdk/Carthage.build/iOS",
+					"/Users/justinmakaila/Workspace/Swift/facebook-ios-sdk/Carthage/Build/iOS",
 				);
 			};
 			name = Release;
@@ -3136,7 +3155,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage.build/iOS",
+					"$(SRCROOT)/../Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3199,7 +3218,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage.build/iOS",
+					"$(SRCROOT)/../Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
