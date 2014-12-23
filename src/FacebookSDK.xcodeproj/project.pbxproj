@@ -2354,7 +2354,6 @@
 				7C2BF2551A3A39B700974BEC /* Sources */,
 				7C2BF2561A3A39B700974BEC /* Frameworks */,
 				7C2BF2571A3A39B700974BEC /* Headers */,
-				7CECB7A51A48DA5400D38A4B /* ShellScript */,
 			);
 			buildRules = (
 				7C2BF40C1A3A63A000974BEC /* PBXBuildRule */,
@@ -2655,20 +2654,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7CECB7A51A48DA5400D38A4B /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/iOS/Bolts.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		85C9D0E516A7957A00D0ED57 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
