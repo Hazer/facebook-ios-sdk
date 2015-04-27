@@ -1,0 +1,7 @@
+# Require the latest version of Bolts
+github "justinmakaila/Bolts-iOS" >= 1.1.4
+#
+
+# Require the latest verion of Bolts (local)
+#git "/Users/justinmakaila/Workspace/Swift/Bolts-iOS" >= 1.1.4
+
